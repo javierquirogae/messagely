@@ -78,3 +78,6 @@ router.post("/:id/read", ensureLoggedIn, async function (req, res, next) {
 }
 );
 
+module.exports = router;
+
+
